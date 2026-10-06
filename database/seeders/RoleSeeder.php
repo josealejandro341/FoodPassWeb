@@ -5,10 +5,13 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Role;
 
+/**
+ * Clase encargada de poblar la base de datos con los roles iniciales del sistema.
+ */
 class RoleSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Ejecuta las semillas (datos iniciales).
      */
     public function run(): void
     {
